@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO THE QUIZ"
+        android:textSize="32dp"
+        tools:layout_editor_absolutex="31dp"
+        tools:layout_editor_absolutey="263dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        tools:layout_editor_absolutex="47dp"
+        tools:layout_editor_absolutey="567dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
